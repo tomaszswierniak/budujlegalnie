@@ -29,7 +29,7 @@ theme = "raditian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
-  name = "Koncelaria"
+  name = "Koncelariaaaaaaaa"
   URL = "#about"
   weight = 2
 
