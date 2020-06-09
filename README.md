@@ -1,2 +1,2 @@
-# budujlegalnie
-budujlegalnie.pl
+# budujlegalnie.pl
+Kancelaria Tomasz Świerniak

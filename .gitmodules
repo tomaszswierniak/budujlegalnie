@@ -1,0 +1,7 @@
+[submodule "themes/raditian-free-hugo-theme"]
+	path = themes/raditian-free-hugo-theme
+	url = https://github.com/radity/raditian-free-hugo-theme.git
+[submodule "public"]
+	path = public
+	url = https://github.com/tomaszswierniak/tomaszswierniak.github.io.git
+	branch = master
