@@ -21,8 +21,8 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
-  description = "Your description"
+  name = "Kancelaria Radcy Prawnego Tomasz Świerniak"
+  description = "Kancelaria Radcy Prawnego Tomasz Świerniak posiada ponad 10-letnie doświadczenie w korporacyjnej obsłudze podmiotów gospodarczych. Jesteśmy jedną z nielicznych kancelarii działających na polskim rynku, nasi prawnicy posiadają specjalistyczną wiedzę z zakresu prawa budowlanego i deweloperskiego oraz doświadczenie w obsłudze podmiotów z branży budowlanej i deweloperskiej."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -39,8 +39,8 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Kancelaria"
+    subtitle = "Radcy Prawnego Tomasz Świerniak"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -50,16 +50,20 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "Podwykonawca"
+      url = "budownictwo_podwykonawca.html"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "Generalny Wykonawca"
+      url = "budownictwo_generalny_wykonawca.html"
 
     [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "Klient indywidualny"
+      url = "deweloperstwo_klient_indywidualny.html"
+
+    [[params.navigation.links]]
+      name = "Deweloper"
+      url = "deweloperstwo_deweloper.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -70,22 +74,17 @@ disqusShortname = ""
 
     # Button Style 1
     [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
-
-    # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+      name = "Kontakt"
+      url = "kontakt.html"
 
 
   # Banner section
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "Buduj legalnie z nami"
+    subtitle = "Kancelaria Radcy Prawnego Tomasz Świerniak posiada ponad 10-letnie doświadczenie w korporacyjnej obsłudze podmiotów gospodarczych."
+    buttonText = "Usługi"
 
 
   # Tiles Section
@@ -94,40 +93,28 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Podwykonawca"
+      subtitle = "Budownictwo"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "budownictwo_podwykonawca.html"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Generalny Wykonawca"
+      subtitle = "Budownictwo"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "budownictwo_generalny_wykonawca.html"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
-
-    [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Deweloper"
+      subtitle = "Deweloperstwo"
       image = "pic05.jpg"
-      url = "blogs/ipsum"
+      url = "deweloperstwo_deweloper.html"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Klient indywidualny"
+      subtitle = "Deweloperstwo"
       image = "pic06.jpg"
-      url = "blogs/ipsum"
+      url = "deweloperstwo_klient_indywidualny.html"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -140,21 +127,17 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    title = "O Kancelarii"
+    subtitle = """Kancelaria Radcy Prawnego Tomasz Świerniak posiada ponad 10-letnie doświadczenie w korporacyjnej obsłudze podmiotów gospodarczych. Jesteśmy jedną z nielicznych kancelarii działających na polskim rynku, nasi prawnicy posiadają specjalistyczną wiedzę z zakresu prawa budowlanego i deweloperskiego oraz doświadczenie w obsłudze podmiotów z branży budowlanej i deweloperskiej."""
+
+    subtitle2 = """Kancelaria powstała w odpowiedzi na rosnące zapotrzebowanie na specjalistyczne usługi prawne. Jako kancelaria butikowa oferujemy usługi w wybranych obszarach specjalizacji, wykorzystując doświadczenie zdobyte w trakcie wieloletniej pracy w jednej z największych grup budowlanych, co pozwala nam świadczyć usługi na najwyższym poziomie. Jednocześnie – wykorzystując doświadczenie biznesowe Partnerów Kancelarii – zapewniamy naszym Klientom pomoc prawną dostosowaną do ich indywidualnych potrzeb, uwzględniającą nie tylko obowiązujące regulacje, ale też specyfikę ich działalności oraz rynków, w ramach których funkcjonują."""
 
 
   # Contact section
   [params.contact]
     enable = true
-    buttonSend = "Send message"
-    buttonClear = "Clear"
+    buttonSend = "Wyślij"
+    buttonClear = "Wyczyść"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -177,44 +160,24 @@ disqusShortname = ""
     email = "example@domain.com"
 
     [[params.contact.phone]]
-    title = "Phone"
+    title = "Telefon"
     phone = "(000) 000-0000 x1234"
 
     [[params.contact.address]]
-    title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    title = "Adres"
+    street = "ul. Piotrowicka 99a/2"
+    city = "40–724 Katowice"
+    country = "Polska"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "Radca Prawny Tomasz Świerniak"
 
     # Uses font awesome icons
     [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com"
-      label = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-instagram"
-      url= "https://www.instagram.com"
-      label = "Instagram"
-    
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://www.github.com"
-      label = "GitHub"
-
-    [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/tomasz-świerniak-117b0814b/"
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
