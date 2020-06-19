@@ -3,7 +3,7 @@ publishDir = "docs"
 
 baseURL = "https://budujlegalnie.pl/"
 languageCode = "en-us"
-title = "Forty"
+title = "Kancelaria Tomasz Świerniak"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -50,20 +50,21 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Podwykonawca"
-      url = "budownictwo_podwykonawca.html"
-
-    [[params.navigation.links]]
       name = "Generalny Wykonawca"
       url = "budownictwo_generalny_wykonawca.html"
 
     [[params.navigation.links]]
-      name = "Klient indywidualny"
-      url = "deweloperstwo_klient_indywidualny.html"
+      name = "Podwykonawca"
+      url = "budownictwo_podwykonawca.html"
 
     [[params.navigation.links]]
       name = "Deweloper"
       url = "deweloperstwo_deweloper.html"
+      
+    [[params.navigation.links]]
+      name = "Klient indywidualny"
+      url = "deweloperstwo_klient_indywidualny.html"
+
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -93,27 +94,27 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Podwykonawca"
-      subtitle = "Budownictwo"
-      image = "pic01.jpg"
-      url = "budownictwo_podwykonawca.html"
-
-    [[params.tiles.showcase]]
       title = "Generalny Wykonawca"
       subtitle = "Budownictwo"
-      image = "pic02.jpg"
+      image = "Generalny_Wykonawca.jpg"
       url = "budownictwo_generalny_wykonawca.html"
+
+    [[params.tiles.showcase]]
+      title = "Podwykonawca"
+      subtitle = "Budownictwo"
+      image = "Podwykonawca.jpg"
+      url = "budownictwo_podwykonawca.html"
 
     [[params.tiles.showcase]]
       title = "Deweloper"
       subtitle = "Deweloperstwo"
-      image = "pic05.jpg"
+      image = "Deweloperka.jpg"
       url = "deweloperstwo_deweloper.html"
 
     [[params.tiles.showcase]]
       title = "Klient indywidualny"
       subtitle = "Deweloperstwo"
-      image = "pic06.jpg"
+      image = "Klient_indywidualny.jpg"
       url = "deweloperstwo_klient_indywidualny.html"
     # You can make more showcases by copy and pasting the code above
 
@@ -157,11 +158,11 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "tomasz.swierniak@gmail.com"
 
     [[params.contact.phone]]
     title = "Telefon"
-    phone = "(000) 000-0000 x1234"
+    phone = "(+48) 669 406 329"
 
     [[params.contact.address]]
     title = "Adres"
